@@ -1,5 +1,7 @@
 # Stewardship and Controversy Assessment Agent
 
+[![Validate research workflow](https://github.com/HHFinAi/Stewardship-and-Controversy-Assessment/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/HHFinAi/Stewardship-and-Controversy-Assessment/actions/workflows/validate.yml)
+
 **Institutional-quality buy-side research, designed to support tradable investment decisions through a traceable, auditable workflow.**
 
 What is evidenced, what change is sought, how will progress be verified, and what investment or engagement review is warranted?
