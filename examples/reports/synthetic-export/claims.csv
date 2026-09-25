@@ -1,0 +1,12 @@
+stage,claim_id,kind,claim,scope,period,evidence_ids
+mandate,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+evidence,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+incident,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+engagement,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+valuation,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+valuation,CALC1,CALCULATION,"Recomputed illustrative milestone_status; inspect arguments, units and result in calculation C1.",FICTIONAL-SUBJECT,2026-09-25,
+escalation,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+market,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+expression,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+challenge,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,
+memo,A1,ASSUMPTION,"Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",FICTIONAL-SUBJECT,2026-09-25,

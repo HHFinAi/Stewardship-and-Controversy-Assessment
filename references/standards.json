@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-09-25",
+  "standards": [
+    {
+      "id": "FRC-2026",
+      "title": "UK Stewardship Code 2026",
+      "url": "https://www.frc.org.uk/library/standards-codes-policy/stewardship/uk-stewardship-code/",
+      "source_date": "2025-06-03",
+      "checked_on": "2026-09-25",
+      "status": "VOLUNTARY_CODE_EFFECTIVE_2026",
+      "can_apply_as_current_rule": false,
+      "note": "Applies from 1 January 2026; 2026 is a transition year. No FRC affiliation or signatory status implied.",
+      "jurisdiction": "See primary source and mandate",
+      "effective_from": null,
+      "verification_scope": "Official landing-page/source description checked; not an exhaustive line-by-line compliance mapping"
+    },
+    {
+      "id": "UNGP",
+      "title": "OHCHR business and human rights framework",
+      "url": "https://europe.ohchr.org/areas-of-work/business-and-human-rights",
+      "source_date": "2026-09-25",
+      "checked_on": "2026-09-25",
+      "status": "INTERNATIONAL_FRAMEWORK_REFERENCE",
+      "can_apply_as_current_rule": false,
+      "note": "Current official overview checked; source-date is review date. Read the UNGP text and local law before legal application. Risks to people are distinct from financial exposure.",
+      "jurisdiction": "See primary source and mandate",
+      "effective_from": null,
+      "verification_scope": "Official landing-page/source description checked; not an exhaustive line-by-line compliance mapping"
+    },
+    {
+      "id": "IFRS-S1",
+      "title": "IFRS S1: sustainability-related financial information",
+      "url": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s1-general-requirements/",
+      "source_date": "2023-06-26",
+      "checked_on": "2026-09-25",
+      "status": "ISSUED_STANDARD",
+      "can_apply_as_current_rule": false,
+      "note": "Investor-focused financial materiality. Jurisdictional adoption must be checked separately. Not an impact-materiality substitute.",
+      "jurisdiction": "See primary source and mandate",
+      "effective_from": null,
+      "verification_scope": "Official landing-page/source description checked; not an exhaustive line-by-line compliance mapping"
+    }
+  ]
+}

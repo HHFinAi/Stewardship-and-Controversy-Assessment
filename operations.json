@@ -1,0 +1,69 @@
+{
+  "agent": "stewardship-controversy-agent",
+  "version": "0.2.0",
+  "operations": [
+    {
+      "operation": "benchmark_relative_return",
+      "signature": "(security_returns: 'list[float]', benchmark_returns: 'list[float]') -> 'dict'",
+      "argument_units": {
+        "security_returns": "decimal",
+        "benchmark_returns": "decimal"
+      },
+      "output_unit": "event_return_context",
+      "description": "See source code and domain methodology for assumptions."
+    },
+    {
+      "operation": "dscr",
+      "signature": "(cash_available: 'float', debt_service: 'float') -> 'float'",
+      "argument_units": {
+        "cash_available": "$money",
+        "debt_service": "$money"
+      },
+      "output_unit": "multiple",
+      "description": "See source code and domain methodology for assumptions."
+    },
+    {
+      "operation": "holding_period_return",
+      "signature": "(initial_dirty_price: 'float', exit_dirty_price: 'float', cash_income: 'float', funding_cost: 'float', transaction_cost: 'float') -> 'float'",
+      "argument_units": {
+        "initial_dirty_price": "$money",
+        "exit_dirty_price": "$money",
+        "cash_income": "$money",
+        "funding_cost": "$money",
+        "transaction_cost": "$money"
+      },
+      "output_unit": "decimal_return",
+      "description": "See source code and domain methodology for assumptions."
+    },
+    {
+      "operation": "milestone_status",
+      "signature": "(milestones: 'list[dict]', as_of: 'str') -> 'dict'",
+      "argument_units": {
+        "milestones": "milestone_records",
+        "as_of": "ISO_date"
+      },
+      "output_unit": "milestone_progress",
+      "description": "See source code and domain methodology for assumptions."
+    },
+    {
+      "operation": "npv",
+      "signature": "(cashflows: 'list[float]', annual_discount: 'float') -> 'float'",
+      "argument_units": {
+        "cashflows": "$money",
+        "annual_discount": "decimal"
+      },
+      "output_unit": "$money",
+      "description": "Periodic NPV; cashflows[0] is at time zero, then annual periods."
+    },
+    {
+      "operation": "scale",
+      "signature": "(value: 'float', factor: 'float') -> 'float'",
+      "argument_units": {
+        "value": "$input_unit",
+        "factor": "conversion_factor"
+      },
+      "output_unit": "$output_unit",
+      "description": "Explicit arithmetic conversion; external unit semantics need human review."
+    }
+  ]
+}
