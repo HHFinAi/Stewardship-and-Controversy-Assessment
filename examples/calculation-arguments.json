@@ -1,0 +1,17 @@
+{
+  "milestones": [
+    {
+      "id": "M1",
+      "due_on": "2026-09-01",
+      "completed_on": null,
+      "outcome_verified": false
+    },
+    {
+      "id": "M2",
+      "due_on": "2026-09-20",
+      "completed_on": "2026-09-18",
+      "outcome_verified": true
+    }
+  ],
+  "as_of": "2026-09-25"
+}

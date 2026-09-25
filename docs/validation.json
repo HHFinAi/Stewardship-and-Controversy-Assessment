@@ -1,0 +1,40 @@
+{
+  "agent": "stewardship-controversy-agent",
+  "version": "0.2.0",
+  "validated_on": "2026-09-25",
+  "python": "3.13.5",
+  "platform": "Linux",
+  "unit_test_executions": 120,
+  "domain_unit_tests": 13,
+  "unit_tests": "PASS",
+  "schema_validations": 39,
+  "schema_validation": "PASS",
+  "routes": [
+    {
+      "route": "engagement-plan",
+      "status": "SYNTHETIC_COMPLETE_NOT_APPROVED",
+      "stage_count": 10,
+      "packet_digest": "fb160c76558bcb1fe5767966815993e2608bc9ae013c727a919d424903737a8c",
+      "execution_authorized": false
+    },
+    {
+      "route": "controversy-response",
+      "status": "SYNTHETIC_COMPLETE_NOT_APPROVED",
+      "stage_count": 10,
+      "packet_digest": "c6defa7529d78ae0f05a34add63f82ef0bf78901f4547c67177b0268feff4284",
+      "execution_authorized": false
+    },
+    {
+      "route": "outcome-review",
+      "status": "SYNTHETIC_COMPLETE_NOT_APPROVED",
+      "stage_count": 10,
+      "packet_digest": "3c7c1d373dbc017a341420d60a6cab3b5e0f080b08d3e9bd30e0fe06d47c7b56",
+      "execution_authorized": false
+    }
+  ],
+  "source_study_status": "NEEDS_DATA",
+  "live_research_performed": false,
+  "remote_github_actions_run": false,
+  "production_certification": false,
+  "repository_checks": "PASS"
+}

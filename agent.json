@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0",
+  "name": "stewardship-controversy-agent",
+  "title": "Stewardship and Controversy Assessment Agent",
+  "owner": "HHFinAi",
+  "version": "0.2.0",
+  "default_route": "engagement-plan",
+  "routes": {
+    "engagement-plan": {
+      "title": "Engagement Plan",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "incident",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "engagement",
+          "depends_on": [
+            "incident"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "engagement"
+          ]
+        },
+        {
+          "id": "escalation",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "escalation"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "equity",
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ]
+    },
+    "controversy-response": {
+      "title": "Controversy Response",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "incident",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "engagement",
+          "depends_on": [
+            "incident"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "engagement"
+          ]
+        },
+        {
+          "id": "escalation",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "escalation"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "equity",
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ]
+    },
+    "outcome-review": {
+      "title": "Outcome Review",
+      "nodes": [
+        {
+          "id": "mandate",
+          "depends_on": []
+        },
+        {
+          "id": "evidence",
+          "depends_on": [
+            "mandate"
+          ]
+        },
+        {
+          "id": "incident",
+          "depends_on": [
+            "evidence"
+          ]
+        },
+        {
+          "id": "engagement",
+          "depends_on": [
+            "incident"
+          ]
+        },
+        {
+          "id": "valuation",
+          "depends_on": [
+            "engagement"
+          ]
+        },
+        {
+          "id": "escalation",
+          "depends_on": [
+            "valuation"
+          ]
+        },
+        {
+          "id": "market",
+          "depends_on": [
+            "escalation"
+          ]
+        },
+        {
+          "id": "expression",
+          "depends_on": [
+            "market"
+          ]
+        },
+        {
+          "id": "challenge",
+          "depends_on": [
+            "expression"
+          ]
+        },
+        {
+          "id": "memo",
+          "depends_on": [
+            "challenge"
+          ]
+        }
+      ],
+      "asset_types": [
+        "equity",
+        "bond"
+      ],
+      "primary_evidence_kinds": [
+        "issuer",
+        "instrument",
+        "official",
+        "contract",
+        "ecological"
+      ]
+    }
+  },
+  "stages": {
+    "mandate": {
+      "id": "mandate",
+      "title": "Mandate and investable decision",
+      "required_sections": [
+        "decision_question",
+        "instrument_boundary",
+        "mandate_constraints"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/mandate.md",
+      "investment_gate": false
+    },
+    "evidence": {
+      "id": "evidence",
+      "title": "Evidence intake and reconciliation",
+      "required_sections": [
+        "source_register_review",
+        "boundary_reconciliation",
+        "material_gaps"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/evidence.md",
+      "investment_gate": false
+    },
+    "incident": {
+      "id": "incident",
+      "title": "Evidence and controversy chronology",
+      "required_sections": [
+        "event_vs_publication_dates",
+        "allegations_responses_findings",
+        "affected_groups",
+        "materiality_and_confidence"
+      ],
+      "standard_ids": [
+        "UNGP",
+        "IFRS-S1"
+      ],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/incident.md",
+      "investment_gate": false
+    },
+    "engagement": {
+      "id": "engagement",
+      "title": "Engagement objectives and leverage",
+      "required_sections": [
+        "baseline_and_target",
+        "milestones_owners_deadlines",
+        "leverage_and_collaboration",
+        "conflicts"
+      ],
+      "standard_ids": [
+        "FRC-2026"
+      ],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/engagement.md",
+      "investment_gate": false
+    },
+    "valuation": {
+      "id": "valuation",
+      "title": "Progress and investment read-through",
+      "required_sections": [
+        "milestone_status",
+        "event_return_context",
+        "financial_thesis_update",
+        "outcome_attribution"
+      ],
+      "standard_ids": [
+        "FRC-2026",
+        "IFRS-S1"
+      ],
+      "requires_calculation": true,
+      "prompt_path": "prompts/stages/valuation.md",
+      "investment_gate": false,
+      "allowed_operations": [
+        "milestone_status",
+        "benchmark_relative_return"
+      ]
+    },
+    "escalation": {
+      "id": "escalation",
+      "title": "Escalation and stewardship accountability",
+      "required_sections": [
+        "engage_vote_escalate_options",
+        "policy_and_mandate_consistency",
+        "communications_review",
+        "outcomes_reporting"
+      ],
+      "standard_ids": [
+        "FRC-2026",
+        "UNGP"
+      ],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/escalation.md",
+      "investment_gate": false
+    },
+    "market": {
+      "id": "market",
+      "title": "Market context and implementation evidence",
+      "required_sections": [
+        "market_or_contract_evidence",
+        "liquidity_funding_access",
+        "portfolio_context"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/market.md",
+      "investment_gate": false
+    },
+    "expression": {
+      "id": "expression",
+      "title": "Investment-decision handoff",
+      "required_sections": [
+        "valuation_and_entry",
+        "risk_catalysts_and_thesis_breakers",
+        "eligibility_review"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/expression.md",
+      "investment_gate": true
+    },
+    "challenge": {
+      "id": "challenge",
+      "title": "Independent challenge and exceptions",
+      "required_sections": [
+        "source_challenge",
+        "model_and_method_limits",
+        "material_issues"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/challenge.md",
+      "investment_gate": false
+    },
+    "memo": {
+      "id": "memo",
+      "title": "Investment committee and accountable review",
+      "required_sections": [
+        "investment_question_and_answer",
+        "financial_vs_sustainability_conclusions",
+        "evidence_and_calculations",
+        "decision_conditions_and_limits"
+      ],
+      "standard_ids": [],
+      "requires_calculation": false,
+      "prompt_path": "prompts/stages/memo.md",
+      "investment_gate": false,
+      "required_assessments": {
+        "activities_vs_outcomes_separate": [
+          true
+        ],
+        "allegation_is_adjudication": [
+          false
+        ],
+        "engagement_causality": [
+          "not_established",
+          "supported_with_limits"
+        ],
+        "external_action_authorized": [
+          false
+        ]
+      }
+    }
+  },
+  "demo_operation": "milestone_status",
+  "demo_arguments": {
+    "milestones": [
+      {
+        "id": "M1",
+        "due_on": "2026-09-01",
+        "completed_on": null,
+        "outcome_verified": false
+      },
+      {
+        "id": "M2",
+        "due_on": "2026-09-20",
+        "completed_on": "2026-09-18",
+        "outcome_verified": true
+      }
+    ],
+    "as_of": "2026-09-25"
+  },
+  "demo_assessment": "Fictional engagement: an overdue material milestone triggers a human review; a meeting or letter is activity, not evidence of an achieved outcome.",
+  "demo_domain_assessment": {
+    "activities_vs_outcomes_separate": true,
+    "allegation_is_adjudication": false,
+    "engagement_causality": "not_established",
+    "external_action_authorized": false
+  },
+  "capabilities": {
+    "embedded_llm": false,
+    "live_data": false,
+    "trade_execution": false,
+    "scheduler": false,
+    "external_communications": false,
+    "authenticated_human_identity": false
+  }
+}
