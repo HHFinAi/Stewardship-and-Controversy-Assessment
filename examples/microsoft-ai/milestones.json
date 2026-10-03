@@ -1,0 +1,62 @@
+{
+  "case_id": "MSFT-RAI-ENGAGEMENT-2026-10-04",
+  "issuer": "Microsoft Corporation",
+  "prepared_on": "2026-10-04",
+  "artifact_type": "PROPOSED_ENGAGEMENT_PROGRAMME",
+  "methodology": "Nuveen transparency/accountability/impact framing, pp. 7-8, with original HHFinAi evidence criteria",
+  "communication_sent": false,
+  "engagement_start_date": null,
+  "timing_basis": "Illustrative calendar-day intervals after a future authorized initial engagement; no deadlines are agreed or scheduled",
+  "independent_human_review_recorded": false,
+  "workflow_research_approval_recorded": false,
+  "milestones": [
+    {
+      "id": "M01", "theme": "Environmental measurement", "status": "PROPOSED_NOT_SENT", "target_relative_days": 30, "due_date": null,
+      "proposed_request": "Reconcile water withdrawal and consumption, direct and indirect boundaries, asset coverage and comparable reporting periods.",
+      "evidence_criterion": "Dated definition and coverage reconciliation with unresolved limits retained.",
+      "financial_use": "Replace inconsistent water and energy baselines; do not convert a fleet ratio into local operating risk.",
+      "source_ids": ["S2", "N1", "F1"], "proposed_responsible_function": "Environmental reporting and datacentre operations; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    },
+    {
+      "id": "M02", "theme": "Infrastructure economics", "status": "PROPOSED_NOT_SENT", "target_relative_days": 90, "due_date": null,
+      "proposed_request": "Provide a comparable cooling-design assessment separating incremental capex, energy trade-off and counterfactual benefit.",
+      "evidence_criterion": "Defined design/workload comparison and evidence supporting costs and operational benefit, with assumption boundaries.",
+      "financial_use": "Recalculate a site-specific hurdle; do not use the illustrative $3.16m as an issuer target.",
+      "source_ids": ["S2", "F1"], "proposed_responsible_function": "Datacentre engineering and investment approval; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    },
+    {
+      "id": "M03", "theme": "People and workplace", "status": "PROPOSED_NOT_SENT", "target_relative_days": 180, "due_date": null,
+      "proposed_request": "Separate employee cohort outcomes from aggregate training or external learner activity.",
+      "evidence_criterion": "Defined cohort, baseline, implementation and outcome measures with period and scope.",
+      "financial_use": "Assess implementation costs and retained productivity without assuming job elimination.",
+      "source_ids": ["S1", "N1"], "proposed_responsible_function": "Workforce and deployment leadership; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    },
+    {
+      "id": "M04", "theme": "Intellectual property and provenance", "status": "PROPOSED_NOT_SENT", "target_relative_days": 90, "due_date": null,
+      "proposed_request": "Clarify scoped licensing, procurement and third-party model/data responsibilities and exception handling.",
+      "evidence_criterion": "Dated process description and evidence or assurance boundaries, including unresolved dependencies.",
+      "financial_use": "Assess commercial adoption and cost dependencies; no finding of infringement or legal liability is inferred.",
+      "source_ids": ["S1", "N1"], "proposed_responsible_function": "Legal, procurement and product governance; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    },
+    {
+      "id": "M05", "theme": "Privacy and operational safety", "status": "PROPOSED_NOT_SENT", "target_relative_days": 90, "due_date": null,
+      "proposed_request": "Clarify testing and monitoring coverage, incident definitions, denominators and remediation evidence.",
+      "evidence_criterion": "Scoped implementation evidence and limitations; protect confidential details using appropriate aggregates or assurance.",
+      "financial_use": "Investigate retention, cost or delivery consequences without inventing incident probabilities.",
+      "source_ids": ["S1", "N1"], "proposed_responsible_function": "Privacy, security and responsible-AI functions; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    },
+    {
+      "id": "M06", "theme": "Governance and oversight", "status": "PROPOSED_NOT_SENT", "target_relative_days": 90, "due_date": null,
+      "proposed_request": "Clarify actual executive/board reporting, developer/deployer responsibilities and escalation feedback.",
+      "evidence_criterion": "Responsibility map, review cadence and a non-confidential example of findings informing a deployment decision.",
+      "financial_use": "Assess accountability and uncertainty; no automatic governance premium or compliance certification.",
+      "source_ids": ["S1", "N1"], "proposed_responsible_function": "Responsible-AI leadership and corporate governance; actual owner to be confirmed",
+      "issuer_response": null, "outcome_evidence": null, "reviewer_rationale": null
+    }
+  ]
+}
