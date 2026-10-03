@@ -1,6 +1,6 @@
 {
   "owner": "HHFinAi",
-  "repository_name": "stewardship-controversy-agent",
+  "repository_name": "Stewardship-and-Controversy-Assessment",
   "description": "Stewardship and controversies: institutional-quality buy-side research with traceable, auditable workflows and investment-decision handoffs. Research support, not certification or trading.",
   "topics": [
     "sustainable-finance",
@@ -14,7 +14,9 @@
     "stewardship",
     "controversy-analysis"
   ],
-  "publication_status": "prepared-not-published",
-  "intended_repository_url": "https://github.com/HHFinAi/stewardship-controversy-agent",
-  "homepage": null
+  "publication_status": "published",
+  "homepage": null,
+  "repository_url": "https://github.com/HHFinAi/Stewardship-and-Controversy-Assessment",
+  "visibility": "public",
+  "publication_status_checked_on": "2026-10-03"
 }
