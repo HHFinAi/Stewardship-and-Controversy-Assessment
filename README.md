@@ -16,6 +16,8 @@ What is evidenced, what change is sought, how would progress be verified, and ho
 
 The companion [Microsoft cooling-economics case](https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/blob/main/examples/microsoft-ai/README.md) shows how a financial evidence gap becomes a specific research or engagement question. Its project inputs are illustrative assumptions, not Microsoft's reported site economics.
 
+The [integrated portfolio handoff](examples/integrated-portfolio/README.md) adds proposed issuer milestones linked to carbon coverage, attribution and location-level nature questions. These requests remain unsent; no issuer response or outcome is inferred from the public-data exercise.
+
 ## What this research contributes
 
 The case separates company statements, unverified implementation, original investment inferences and proposed engagement activity. Requests have observable evidence criteria and relative timeframes. A meeting or a policy announcement is not counted as an outcome, and absence of public disclosure is not proof that a control is absent.
