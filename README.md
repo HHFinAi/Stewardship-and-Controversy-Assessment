@@ -4,6 +4,8 @@
 
 What is evidenced, what change is sought, how would progress be verified, and how could the result change the investment case?
 
+The [AI infrastructure handoff](examples/ai-infrastructure/README.md), prepared 16 October 2026, adds five proposed evidence requests for delivery contracts, equipment life, power architecture, water/land and operational recovery. Its [ledger](examples/ai-infrastructure/milestones.json) remains PROPOSED_NOT_SENT.
+
 ## Start with the research
 
 ### Microsoft — responsible AI from disclosure to investor engagement

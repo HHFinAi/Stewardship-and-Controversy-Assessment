@@ -1,0 +1,119 @@
+{
+  "case_id": "AI-INFRASTRUCTURE-ENGAGEMENT-2026-10-16",
+  "issuer": "Microsoft Corporation",
+  "prepared_on": "2026-10-16",
+  "artifact_type": "PROPOSED_ENGAGEMENT_PROGRAMME",
+  "source_register_url": "https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/blob/main/examples/ai-infrastructure/evidence/sources.json",
+  "open_issues_url": "https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/blob/main/examples/ai-infrastructure/open_issues.json",
+  "communication_sent": false,
+  "engagement_start_date": null,
+  "independent_human_review_recorded": false,
+  "workflow_research_approval_recorded": false,
+  "timing_basis": "No scheduled or agreed deadlines; dates require a future authorized engagement.",
+  "milestones": [
+    {
+      "id": "AI01",
+      "theme": "Delivery, ownership and contractual exposure",
+      "status": "PROPOSED_NOT_SENT",
+      "proposed_request": "Reconcile phase identity, ownership, permits, delivery milestones, utility/customer commitments and cancellation obligations.",
+      "evidence_criterion": "Dated phase register and appropriately scoped contract or assurance evidence; unresolved phase matches retained.",
+      "financial_use": "Replace commissioning, utilization, power price and capital-recovery assumptions.",
+      "source_ids": [
+        "MS-MP-20260623",
+        "MS-CALEDONIA-20251010",
+        "MS-WI-DESIGN-20250918"
+      ],
+      "financial_issue_ids": [
+        "I01",
+        "I02"
+      ],
+      "proposed_responsible_function": "Infrastructure investment, utility contracting and project delivery; actual owner unconfirmed",
+      "due_date": null,
+      "issuer_response": null,
+      "outcome_evidence": null,
+      "reviewer_rationale": null
+    },
+    {
+      "id": "AI02",
+      "theme": "Hardware economic life and capital recovery",
+      "status": "PROPOSED_NOT_SENT",
+      "proposed_request": "Separate cohort economic service, replacement spending, redeployment/resale, book life and actual tax entitlement.",
+      "evidence_criterion": "Dated cohort reconciliation and documented replacement/resale assumptions with shorter-life sensitivity.",
+      "financial_use": "Recalculate replacement cash flows, cash taxes and residual value.",
+      "source_ids": [
+        "MS-10K-FY2026"
+      ],
+      "financial_issue_ids": [
+        "I03"
+      ],
+      "proposed_responsible_function": "Infrastructure finance, engineering and tax; actual owner unconfirmed",
+      "due_date": null,
+      "issuer_response": null,
+      "outcome_evidence": null,
+      "reviewer_rationale": null
+    },
+    {
+      "id": "AI03",
+      "theme": "Power architecture and cost allocation",
+      "status": "PROPOSED_NOT_SENT",
+      "proposed_request": "Explain site-specific power architecture, delivery dependencies, backup service, fuel, ownership and exit obligations.",
+      "evidence_criterion": "Scoped engineering and contractual evidence identifying who pays each capital, operating and reliability cost.",
+      "financial_use": "Compare deliverable grid and dedicated-generation alternatives without hidden backup or resale credits.",
+      "source_ids": [
+        "MS-WI-DESIGN-20250918",
+        "MS-ATL-20251112"
+      ],
+      "financial_issue_ids": [
+        "I01",
+        "I04"
+      ],
+      "proposed_responsible_function": "Energy procurement, engineering and finance; actual owner unconfirmed",
+      "due_date": null,
+      "issuer_response": null,
+      "outcome_evidence": null,
+      "reviewer_rationale": null
+    },
+    {
+      "id": "AI04",
+      "theme": "Water, land and mitigation evidence",
+      "status": "PROPOSED_NOT_SENT",
+      "proposed_request": "Reconcile phase-level water source, withdrawals/consumption, seasonal restrictions, land disturbance and measured mitigation.",
+      "evidence_criterion": "Defined boundary, baseline, period and appropriately scoped measurement and permission evidence.",
+      "financial_use": "Change costs or operating availability only through an evidenced causal mechanism.",
+      "source_ids": [
+        "MS-WI-DESIGN-20250918",
+        "MS-CALEDONIA-20251010"
+      ],
+      "financial_issue_ids": [
+        "I01",
+        "I02",
+        "I05"
+      ],
+      "proposed_responsible_function": "Environmental management and site operations; actual owner unconfirmed",
+      "due_date": null,
+      "issuer_response": null,
+      "outcome_evidence": null,
+      "reviewer_rationale": null
+    },
+    {
+      "id": "AI05",
+      "theme": "Operational-technology recovery and liability",
+      "status": "PROPOSED_NOT_SENT",
+      "proposed_request": "Provide non-sensitive assurance on operational responsibility, recovery objectives, service credits and liability allocation.",
+      "evidence_criterion": "Aggregate tested-recovery evidence with coverage and limits; no confidential security detail requested for public release.",
+      "financial_use": "Replace conditional outage severity and recoverability; estimate frequency only with separate calibrated evidence.",
+      "source_ids": [
+        "NIST-OT-R3-20230928",
+        "MS-ATL-20251112"
+      ],
+      "financial_issue_ids": [
+        "I05"
+      ],
+      "proposed_responsible_function": "Operational technology, security, operations and commercial contracting; actual owner unconfirmed",
+      "due_date": null,
+      "issuer_response": null,
+      "outcome_evidence": null,
+      "reviewer_rationale": null
+    }
+  ]
+}
