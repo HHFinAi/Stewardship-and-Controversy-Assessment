@@ -1,5 +1,7 @@
 # Microsoft: responsible AI from disclosure to investor engagement
 
+**16 October follow-up:** the [AI infrastructure programme](../ai-infrastructure/README.md) adds five specific proposed requests. The original six milestones below remain unchanged and unsent.
+
 **Proposed engagement programme based on public disclosures. Prepared 4 October 2026.** No communication has been sent, no meeting is claimed, and no issuer response or engagement outcome is recorded. Independent human validation and workflow research approval are not recorded.
 
 ## Research assessment
