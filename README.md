@@ -1,5 +1,7 @@
 # Stewardship and Controversy Assessment
 
+> **Responsible AI:** Analyst-controlled research; verify evidence, disclose AI assistance and protect confidential information. [Policy and project-specific checks](RESPONSIBLE_AI.md).
+
 **Investment research by HHFinAi: evidence, issuer questions, observable milestones and accountable follow-up.**
 
 What is evidenced, what change is sought, how would progress be verified, and how could the result change the investment case?

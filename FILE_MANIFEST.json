@@ -6,15 +6,15 @@
     ".gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
     ".github/workflows/validate.yml": "ef198667619fe3a0abb7808d319e07446409de184372ea5004837aeb7d51d445",
     ".gitignore": "c27979894e76865d6a280fd00bd25f5295521674627a80d3b2099f8b2eb83ccf",
-    "AGENTS.md": "22a4a4b40825f8620d68f3f5cbede89057c92c73d4691b3d47ecd5b8233ada9b",
-    "CHANGELOG.md": "954e2a6602025885263b93a07008631faebaaa3fec3afab5e5e26193ec8bdeec",
+    "AGENTS.md": "09fe84d49bf429d05be6a833ce5943f1ea4fa4d826b527a5d2ba3bf8f89571bd",
+    "CHANGELOG.md": "e795417adb9dd8d30f4c40298b683fea28aae7563b8dd77943bf3e73f088ff44",
     "CITATION.cff": "91724c0ab0a70e23088ee32c5980960aec4ad2bab72f45ebe7630a3c7b708953",
     "COMMON_CORE_MANIFEST.json": "3fadb1efbc423eb519e409be5bdf1fb33dc0a9b25a35a446be1512ba2e6ee364",
-    "CONTRIBUTING.md": "43183fc73dbec1ed3539c9b20a916b18ed5d16b1a849c3c8dd0422f0f14d3ac8",
+    "CONTRIBUTING.md": "b5ba238e30fcb247643fcfde4d7b2c85decea65dc06e2f6526c0a896335ae7ad",
     "LICENSE": "0096c6f4b18e36749e9652b24d63dbe9d2f36ef66e2ea80e61660c7d3f10b7fd",
     "NOTICE.md": "de20315d76e21da66212781043f66d9ec282041cb8752bb22c169f5029559fb1",
     "PROMPTS.md": "6a69cd15abf7354e074d6474126251ea2ab05227d0574abdc558a05ec571c512",
-    "README.md": "24ede4d52138ac72377897d9b6ebb21124e6a59c8316f7be1b3b173cb5819a43",
+    "README.md": "2280399c8d879aeba013a8b1ffb90ffeeab259cdd4496ffb4e6bfd38144e646b",
     "SECURITY.md": "0a73124a23b3c34faf2dc0350c5b9873fdebcaf15ccc0eaf43a99e8ecc5b61a2",
     "SKILL.md": "e6d6f7a3a3206ba8d5c2b648b585a2eb92c9617a672227d6a83b311966c6db5f",
     "START_HERE.md": "77bfb99294eaa682b4548df93ea965045adf1a75ef73468d1e9d56a0a1bb044a",
@@ -96,8 +96,13 @@
     "tests/test_controls.py": "99a613c6d888aed39a023629c31cd59aea9a06db0426aa3ed337e9b7828b0af2",
     "tests/test_expansion_controls.py": "3580af288c33dc8ce82fae11a5a8b50d88684ede70d2eb8eda3134cf4f27e600",
     "tests/test_metadata.py": "08512563116643e106c3e9e9e58e263a4d99ebdc188ef360384fe858928ea85b",
-    "tests/test_release_inventory.py": "9eef0f81f9b6ca27d57d2a4f50fbba79bdfcbe8b8d8134d022b2ed36db5c6d49"
+    "tests/test_release_inventory.py": "9eef0f81f9b6ca27d57d2a4f50fbba79bdfcbe8b8d8134d022b2ed36db5c6d49",
+    "RESPONSIBLE_AI.md": "27e4e52b4ebfdb9fda776cbf02e3ef1cd676f67565e644d0c3b89e05e941306f"
   },
   "inventory_reviewed_on": "2026-10-08",
-  "inventory_scope": "Reviewed public repository files; top-level transient runs/exports/outputs excluded. Nested evaluation archives are included. This unsigned inventory is not authenticated provenance or independent source verification."
+  "inventory_scope": "Reviewed public repository files; top-level transient runs/exports/outputs excluded. Nested evaluation archives are included. This unsigned inventory is not authenticated provenance or independent source verification.",
+  "responsible_ai_documentation_update": {
+    "date": "2026-10-22",
+    "scope": "Only the policy and documentation paths in this commit were updated; no runtime validation or human research approval is inferred."
+  }
 }
